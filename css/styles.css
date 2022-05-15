@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+}
+
+.nav_style{
+	background: linear-gradient(white,#fffc);
+	box-shadow: 0px 10px 30px 0 #ff000061;
+	position: fixed;
+	overflow: hidden;
+
+}
+
+.navbar-brand{
+	width: 90px;
+	height: 80px;
+}
+
+.navbar-nav li a {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #333;
+	position: relative;
+}
+
+.navbar-nav li a:before{
+	content: '';
+	top: 100%;
+	bottom: 50%;
+	width: 0%;
+	height: 9%;
+	background: #ff7230;
+	transition: all 0.3s linear;
+	position: absolute;
+}
+
+.navbar-nav li a:hover:before{
+	width: 80%;
+}
+
+.navbar-nav li a:hover{
+	color: #ff7230 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+	color: #ff7230 !important;
+	
+}
+
+.sticky{
+	box-shadow: none !important;
+}
+
+
+
+
+/*============================= Navbar end ================*/
+
+/*=========================== Banner start ================*/
+
+
+.header_text{
+	font-size: 19px;
+	font-weight: 200;
+	color: #ed1c24;
+	margin-top: 40px;
+}
+
+.main_banner{
+	padding-bottom: 20px;
+	padding-top: 100px;
+}
+
+.main_banner img{
+	
+	margin-top: 40px;
+}
+
+.header_text2{
+	font-size: 19px;
+	font-weight: 200;
+	color: #ed1c24;
+	margin-bottom: 50px;
+
+}
+
+.span_header_text {
+	font-weight: bold;
+	color: #0076fa;
+}
+
+.hire_me{
+	width: 160px;
+	height: 35px;
+	background: #ed1c24 ;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	outline: none;
+	border: none;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.hire_me:hover{
+	background: #fff;
+	color: #ed1c24 ;
+	border: 1px solid #ed1c24;
+	font-weight: bold;
+}
+
+.header_mail #myemail{
+	margin-top: -15px;
+}
+
+
+.header_mail_para{
+	margin-top: 10px;
+	font-size: 19px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
+/*=========================== Banner End ================*/
+
+
+/*=========================== About Me start ================*/
+
+.about_section{
+	
+	background: #f7f7f7;
+}
+
+.main_about h1{
+	padding-top: 50px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about_text{
+	margin-top: 0px;
+
+}
+
+.about_image{
+	margin-top: -45px;
+}
+
+.about_text h1{
+	color: #ed1c24;
+	margin-top: -20px;
+	margin-bottom: 40px;
+}
+
+.about_text h2{
+	font-size: 23px;
+}
+
+.about_text p{
+	font-size: 20px;
+}
+
+/*======================== about us end ==============================*/
+
+
+/*========================= exp secion start ============================*/
+.main_about p{
+	font-size: 19px;
+	color: black;
+	text-align: center;
+
+}
+
+.common_div{
+	margin-top: 130px;
+}
+
+.work_section .progress{
+	width: 90%;
+	border-radius: 7px;
+}
+
+.work_section h2{
+	position: relative;
+	font-size: 20px;
+}
+
+.work_section .pb_1{
+	width: 60%;
+	border-radius: 7px;
+	background: #ed1c24;
+}
+
+
+
+.expert_h1:after{
+	content: '60%';
+	color: #000;
+	position: absolute;
+	float: right;
+	font-size: 20px;
+	right: 70px;
+	top: 1px;
+
+}
+
+.work_section .pb_2{
+	width: 73%;
+	border-radius: 7px;
+	background: #0075f9;
+}
+
+.expert_h2:after{
+	content: '73%';
+	color: #000;
+	position: absolute;
+	float: right;
+	font-size: 20px;
+	right: 70px;
+	top: 1px;
+
+}
+
+.work_section .pb_3{
+	width: 80%;
+	border-radius: 7px;
+	background: #fff200;
+}
+
+.expert_h3:after{
+	content: '80%';
+	color: #000;
+	position: absolute;
+	float: right;
+	font-size: 20px;
+	right: 70px;
+	top: 1px;
+
+}
+
+.work_section .pb_4{
+	width: 90%;
+	border-radius: 7px;
+	background: #00b570;
+}
+
+.expert_h4:after{
+	content: '90%';
+	color: #000;
+	position: absolute;
+	float: right;
+	font-size: 20px;
+	right: 70px;
+	top: 1px;
+
+}
+
+
+/*========================= exp secion start ============================*/
+
+/*========================= Our Services start ============================*/
+
+.our_services{
+
+	padding-bottom:70px;
+}
+
+.services_div{
+	border-color: #f8f9fa;
+	border-radius: 8px;
+	box-shadow: 0px 10px 30px 0 #ff000061;
+	transition: all 0.1s linear;
+	padding: 20px 10px 70px 10px;
+	position: relative;
+	transform-style: preserve-3d;
+	-webkit-transition: all 0.1s linear;
+}
+
+
+
+
+
+
+
+.services_div:hover{
+	background: white;
+	box-shadow: 0px 0px 5px 1px #ff000061;
+	border: 1px solid #ed1c24;
+}
+
+.services_div h1{
+	text-align: center;
+	font-size: 52px;
+	border-radius: 50%;
+	position: relative;
+	background: white;
+	color: #ed1c24;
+	width: 68px;
+	height: 68px;
+	margin: auto;
+	padding-bottom: 10px;
+	transition: all 0.1s linear;
+
+}
+
+.services_div:hover h1{
+	background: #f8f9fa;
+	border: 1px solid #ed1c24;
+}
+
+.services_div .service_list_icon{
+	width: 14px;
+	margin-right: 10px;
+	height: 14px;
+}
+
+.fa-heart{
+	color: white;
+	position: absolute;
+	left: 1px;
+	bottom: 1px;
+}
+
+.services_div:hover .fa-heart{
+	color: #ffe8e8;
+}
+
+.services_div li{
+	font-size: 20px;
+	list-style: none;
+	font-weight: 700;
+	padding-left: 5px;
+	color: black;
+}
+
+.services_div li:nth-child(1){
+	padding-top: 10px;
+}
+
+.services_div .col-md-4 .col-lg-3 .col-10{
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+/*========================= Our Services End ============================*/
+
+
+/*======================= Hire me sec start =======================*/
+
+.hireme_section{
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	background-attachment: fixed;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/man.jpg');
+	background-size: 100% 100%;
+}
+
+.hireme_section h1{
+	font-size: 40px;
+	color: #ed1c24;
+	font-weight: bold;
+
+}
+.hireme_section p{
+	font-size: 19px;
+	color: #fff;
+	margin-bottom: 36px;
+	margin-top: 36px;
+
+}
+
+.hireme_section span{
+	font-size: 40px;
+	color: #fff200;
+}
+
+/*======================= hre me sec end ===========================*/
+
+/*========================== contact me start======================*/
+
+.contact_me_sec{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+.contact_me_sec img{
+	
+	bottom: 0;
+	left: 0;
+}
+
+.contact_inner{
+		margin-left: 20px;
+	}
+
+
+/*================================ contact me end ==============*/
+
+/*==================================== share me start ==========================*/
+
+.share_sec{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+
+}
+
+.share_me {
+	border-color: #ed1c24;
+	box-shadow: 0px 10px 30px 7px #ff000061;
+	background-color: #f8f9fa ;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
+
+}
+
+.share_me:hover{
+	border-color: #ed1c24;
+	box-shadow: 0px 0px 7px 1px #ff000061;
+	background-color: white ;
+	
+}
+
+.share_me:hover .fa-envelope{
+	color: #ed1c24;
+}
+
+.share_me:hover .fa-whatsapp{
+	color: #ed1c24;
+}
+
+.share_me:hover .fa-location-dot{
+	color: #ed1c24;
+}
+
+.share_me p{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+/*================================= Share me end =================================*/
+
+/*=============================== social sec start ===========================*/
+
+.social_media{
+	background: #651e23;
+}
+
+.social_media .social_icon{
+	padding-top: 30px;
+	padding-bottom: 35px;
+
+}
+
+.social_icon a{
+	color: black;
+}
+
+.social_icon .fa-facebook-f:hover{
+	color: #fff200;
+}
+
+.social_icon .fa-envelope:hover{
+	color: #fff200;
+}
+
+.social_icon .fa-instagram:hover{
+	color: #fff200;
+}
+
+.social_icon .fa-linkedin:hover{
+	color: #fff200;
+}
+
+.social_icon .fa-pinterest:hover{
+	color: #fff200;
+}
+
+/*================================= Social sec End =============================*/
+
+/*======================== footer start =====================*/
+
+.footer_sec{
+	width: 100%;
+	line-height: 50px;
+	background: #ed1c24;
+
+}
+
+.footer_sec p{
+	margin: 0;
+	color:#fff;
+	
+
+}
+
+/*================================== footer end =========================*/
+
+
+/*=========================={ media query starts }==============================================================*/
+
+
+@media (max-width: 991.98px) {
+
+	.navbar-nav{
+		margin-top: 20px;
+	}
+
+	.main_banner{
+		padding-bottom: 20px;
+		padding-top: 100px;
+	}
+
+	.main_banner .hire_me{
+		width: 130px;
+	}
+
+
+	.main_banner .banner_text{
+		order: 2;
+	}
+	.main_banner .banner_image{
+		order: 1;
+	}
+
+	.main_about h1{
+		font-size: 35px;
+	}
+
+	.main_about p{
+		font-size: 14px;
+		padding-top: 15px;
+	}
+
+	.about_text {
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	.about_text h1{
+		font-size: 26px;
+		font-weight: bold;
+		margin-bottom: 20px;
+		margin-top: -12px;
+	}
+
+	.about_image{
+		margin-top: -32px;
+	}
+
+	.about_text p{
+		font-size: 15px;
+	}
+
+	.work_section .common_div{
+		margin-top: 20px;
+	}
+
+	.work_section .progress{
+		width: 100%;
+	}
+
+	.services_main{
+		margin-top: -20px !important;
+	}
+
+	.hireme_section h1{
+		font-size: 35px;
+	}
+
+
+	.hireme_section span{
+		font-size: 30px;
+	}
+
+	.contact_me_sec img{
+		display: none;
+	}
+
+	.contact_inner{
+		margin-top: -56px;
+		margin-left: 0px;
+	}
+
+	.common_div{
+		margin: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
